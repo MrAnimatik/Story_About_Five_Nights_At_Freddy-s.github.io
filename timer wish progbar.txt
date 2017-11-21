@@ -1,0 +1,9 @@
+<link rel="stylesheet" type="text/css" href="../style/timer.css">
+
+<div id='timeout' name="timeout" data-addres="gameover/1d.html" data-time="15"> </div>
+
+<div id ='timer'>
+ <div id='tbar'></div>
+ </div>
+ 
+ <script src="../style/timer.js"></script>
