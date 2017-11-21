@@ -1,0 +1,46 @@
+﻿<html>
+<head> 
+<link rel="stylesheet" type="text/css" href="game/style/style.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<style>
+   body {
+    background: url(resourse/images/background.jpg) repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+  </style>
+<script type+"text/javascript">
+function enter()/* функция для запуска игры с определённого момента*/
+{
+var c = prompt("Введите код для запуска игры с определённой главы.");
+switch(c){
+case "249741":
+top.location.href="game/security/stage2/1.html"
+break;
+case "561342":
+top.location.href="game/security/stage3/1.html"
+break;
+default:
+location.href="gamese.html"
+}
+
+}
+</script>
+
+<title>Story about Five Nights at Freddy's</title>
+</head>
+<body  text="ffffff">
+<table height="100%" width="100%" border="3" cellspacing="0">
+ <tr height="10%"> <td colspan="5"><p align="center"><font face="AGCrownStyle" size="26">Story about Five Nights at Freddy's</font></p></td>
+ </tr>
+ <tr height="45%">
+ <td colspan="5"><center><img src="resourse/images/security/sadend.jpg"width="40%"></center></td>
+ </tr>
+ <tr height="45%">
+  <td width="10%"></td><td width="37.5%" border="6"><center><center><input type="button" onclick="location.href='role.html'" value="Новая игра" /></center></td> <td width="5%"><center><input type="button" class="about" onclick="location.href='about.html'" value="Авторы" /></center></td><td width="37.5%" border="6"><center><input type="button" onclick="enter()" value="Продолжить игру" /></center></td><td width="10%"></td>
+  </tr>
+  </table>
+  </body>
+  </html>

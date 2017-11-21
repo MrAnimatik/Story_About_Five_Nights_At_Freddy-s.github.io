@@ -1,0 +1,15 @@
+a{display:inline-block;
+font-weight: 100;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em ;
+  border-radius: 3px;
+  background: rgb(130,149,151);
+  box-shadow: 0 -3px rgb(140,132,171) inset;
+  transition: 0.2s;
+}
+a:hover { background: rgb(67, 75, 67);
+border-radius: 3px;}
+a:active {
+  background: rgb(10,10,10);
+  box-shadow: 0 3px rgb(33,47,90) inset;

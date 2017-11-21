@@ -1,0 +1,43 @@
+input {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em ;
+  border-radius: 3px;
+  background: rgb(41,49,51);
+  box-shadow: 0 -3px rgb(30,39,41) inset;
+  transition: 0.2s;
+} 
+input:hover { background: rgb(67, 75, 67);
+ border-radius: 3px;
+ padding: .9em 3em ;
+cursor: url(../../resourse/images/cursor.png), pointer; }
+input:active {
+  background: rgb(10,10,10);
+  box-shadow: 0 3px rgb(33,47,90) inset;
+  cursor: url(../../resourse/images/cursor.png), pointer;
+}
+input.about {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em ;
+  border-radius: 3px;
+  background: rgb(60,60,57);
+  box-shadow: 0 -3px rgb(70,70,67) inset;
+  transition: 0.2s;
+} 
+input.about:hover { background: rgb(53, 67, 50);
+cursor: url(../../resourse/images/cursor.png), pointer; }
+input.about:active {
+  background: rgb(10,10,10);
+  box-shadow: 0 3px rgb(33,47,90) inset;
+  cursor: url(../../resourse/images/cursor.png), pointer;
+}
+  body {
+    background: url(resourse/images/background.jpg) repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }

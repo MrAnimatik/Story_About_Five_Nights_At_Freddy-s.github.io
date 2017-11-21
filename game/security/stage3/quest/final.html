@@ -1,0 +1,40 @@
+﻿<html>
+<head> <link rel="stylesheet" type="text/css" href="../../../style/game_style.css">
+<script>
+var start= new Date().getTime();
+function tp(){
+var end = new Date().getTime();
+ if ( end - start < 15000)top.location.href="../bw.html";
+ if (end - start < 19000 && end-start > 15000) top.location.href="../gw.html";
+ if(end - start > 19000)top.location.href="../bfail.html"; 
+ }
+
+</script>
+<style>
+   body {
+    background: url(../../../../resourse/images/background.jpg) repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+  </style>
+<noscript>
+
+<meta http-equiv="refresh" content="3">
+
+</noscript>
+<title>Story about Five Nights at Freddy's</title>
+</head>
+<body background="../../../../resourse/images/background.jpg"text="ffffff">
+<embed src="../../../../resourse/song/security/stage3/quest/final.mp3" width="1" height="1">
+<table height="100%" width="100%" border="3" cellspacing="0">
+ <tr height="90%">
+ <td colspan="5"><center><img src="../../../../resourse/images/security/home/home4.jpg" width="65%"></center></td>
+ </tr>
+ <tr height="10%">
+  <td width="40%"><td width="37.5%"><input type="button" onclick="tp()" value="Положить трубку"> </td> <td width="10%"></td>
+  </tr>
+  </table>
+  </body>
+  </html>
